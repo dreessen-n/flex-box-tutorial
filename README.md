@@ -8,4 +8,6 @@ To use this:
 - [ ] Open them in sequential order and follow directions in comments in style.css
 - [ ] Adjust: size, layering, flex-grow, flex-shrink and flex-basis, and flex-direction as needed
 
+```This is just one way to do it, but very basic and minimal. Find your way. This is only a suggestion```
+
 ```Hope this helps anyone```
