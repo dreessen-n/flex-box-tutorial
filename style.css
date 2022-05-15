@@ -64,3 +64,5 @@ div.box7 {
 }
 
 /* Basically, you keep doing this as you add new inner layers of boxes */
+
+/* !!IMPORTANT: also you can remove the height off the boxes once you add content to them. The height is set for viewing purposes when empty. You can leave on as well but they will 'flex' better with it off. Good luck. */
