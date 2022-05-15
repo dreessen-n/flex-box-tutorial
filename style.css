@@ -1,0 +1,66 @@
+/* style sheet */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Step 1 */
+
+div.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.box2 {
+    display: flex;
+    height: 100px;
+    background-color: seagreen;
+    padding: 10px;
+}
+
+div.box3 {
+    display: flex;
+    height: 300px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* Step 2 */
+/* Add display: flex; to box2 and box3 because you are going to add boxes to them. You can also add padding just so you can see boxes better: say 10px (adjust as needed) */
+
+div.box4 {
+    flex: 1 0 auto;
+    height: 80px;
+    background-color: red;
+}
+
+/* Because box4 and box5 are flex-items, you add flex: 1 0 auto; to them to get them to display the full size. You can adjust later. Read about flex-grow, flex-shrink and  flex-basis*/
+
+
+div.box5 {
+    display: flex;
+    flex: 1 0 auto;
+    height: 280px;
+    background-color: blue;
+    padding: 10px;
+}
+
+/* Same process for next step in box5 we are going to add 2 boxes, but they will be displayed inline. Repeat step 2, but this time add display: flex; and padding to box 5 and then add the flex property to box 6 and box7. You can also add a margin-left to box7 to push it away from box6 */
+
+div.box6 {
+    flex: 1 0 auto;
+    height: 260px;
+    background-color: orange;
+}
+
+div.box7 {
+    flex: 1 0 auto;
+    height: 260px;
+    background-color: rebeccapurple;
+    margin-left: 10px;
+}
+
+/* Basically, you keep doing this as you add new inner layers of boxes */
